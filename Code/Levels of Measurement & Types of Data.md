@@ -47,7 +47,7 @@ All **quantitative-type** variables also come in one of two varieties: **discret
 
 Distinguishing between continuous and discrete can be a little tricky – a rule of thumb is if there are few levels, and values can't be subdivided into further units, then it's discrete. Otherwise, it's continuous. If you have a scale that can only take natural number values between 1 and 5, that's discrete. A quantity that can be measured to two digits, e.g. 2.72, is best characterized as continuous, since we might hypothetically be able to measure to even more digits, e.g. 2.718. A tricky case like test scores measured between 0 and 100 can only be divided down to single integers, making it initially seem discrete. But since there are so many values, such a feature is usually considered as continuous.
  <p align="right">
-<img src="../img/10.PNG" alt="" width="500" height="400" >
+<img src="../img/10.PNG" alt="" width="500" height="300" >
 </p>
    
 When exploring your data, the most important thing to consider first is whether your data is qualitative or quantitative. In later lessons, you will see how this distinction impacts your choice of plots.
@@ -63,19 +63,19 @@ You know your variables! The zip code is tricky. Even though this is a number, i
 ### Example:
 
  <p align="right">
-<img src="../img/12.PNG" alt="" width="500" height="400" >
+<img src="../img/12.PNG" alt="" width="500" height="350" >
 </p>
 
 ### Example:
 
  <p align="right">
-<img src="../img/13.PNG" alt="" width="500" height="400" >
+<img src="../img/13.PNG" alt="" width="500" height="300" >
 </p>
 
 ### Example:
 
  <p align="right">
-<img src="../img/14.PNG" alt="" width="500" height="400" >
+<img src="../img/14.PNG" alt="" width="500" height="300" >
 </p>
 
 ### Quantitative vs. Categorical
