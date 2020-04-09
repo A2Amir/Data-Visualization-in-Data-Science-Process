@@ -4,20 +4,11 @@
 There are two main reasons for creating visuals using data:
 
    * Exploratory analysis is done when you are searching for insights. These visualizations don't need to be perfect. You are using plots to find insights, but they don't need to be aesthetically appealing. You are the consumer of these plots, and you need to be able to find the answer to your questions from these plots.
-
-
-        <p >
-        <img src="../img/2.PNG" alt="" width="500" height="200" align="right">
-        </p>
-
-
+   
+ <img src="../img/2.PNG" alt="" width="500" height="200" align="right">
+   
    * Explanatory analysis is done when you are providing your results for others. These visualizations need to provide you the emphasis necessary to convey your message. They should be accurate, insightful, and visually appealing.
-   
-   
-        <div >
-        <img src="../img/3.PNG" alt="" width="500" height="400" align="right">
-        </div>
-
+<img src="../img/3.PNG" alt="" width="500" height="200" align="right">
 
 The five steps of the data analysis process:
 
@@ -33,10 +24,9 @@ The five steps of the data analysis process:
 
 Below you can see the differrences between Exploratory and Explanatory analyses.
 
-   
-      <div >
-      <img src="../img/4.PNG" alt="" width="600" height="400" align="right">
-      </div>
+
+  <img src="../img/4.PNG" alt="" width="600" height="200" align="right">
+
 
 # Python Data Visualization Libraries
 
@@ -50,12 +40,7 @@ We will make use of the following libraries for creating data visualizations:
    * [pandas](https://pandas.pydata.org/): while this library includes some convenient methods for visualizing data that hook into matplotlib, we'll mainly be using it for its main purpose as a general tool for working with data.
 
 
-
-
-
-<p >
 <img src="../img/5.PNG" alt="" width="300" height="300" align="right">
-</p>
 
 
 
