@@ -31,7 +31,7 @@ The five steps of the data analysis process:
 Below you can see the differrences between Exploratory and Explanatory analyses.
 
  <p align="right">
-  <img src="../img/4.PNG" alt="" width="600" height="200" >
+  <img src="../img/4.PNG" alt="" width="500" height="400" >
  </p>
 
 
