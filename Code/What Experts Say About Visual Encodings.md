@@ -60,3 +60,4 @@ The lie factor shown below was in comparing the largest to the smallest doctor i
 
 Further Reading: [Flowing Data: How to Spot Visualization Lies](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
 
+
