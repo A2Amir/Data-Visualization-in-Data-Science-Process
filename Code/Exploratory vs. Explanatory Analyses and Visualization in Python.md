@@ -3,13 +3,19 @@
 
 There are two main reasons for creating visuals using data:
 
-   * Exploratory analysis is done when you are searching for insights. These visualizations don't need to be perfect. You are using plots to find insights, but they don't need to be aesthetically appealing. You are the consumer of these plots, and you need to be able to find the answer to your questions from these plots.
-   
- <img src="../img/2.PNG" alt="" width="500" height="200" align="right">
-   
-   * Explanatory analysis is done when you are providing your results for others. These visualizations need to provide you the emphasis necessary to convey your message. They should be accurate, insightful, and visually appealing.
-<img src="../img/3.PNG" alt="" width="500" height="200" align="right">
+   * Exploratory analysis is done when you are searching for insights. These visualizations don't need to be perfect. You are using plots to find insights, but they don't need to be aesthetically appealing. You are the consumer of these plots, and you need to be able to find the answer to your questions from these plots. 
+ 
+ <p align="right">
+  <img src="../img/2.PNG" alt="" width="500" height="200" >
+ </p>
 
+   * Explanatory analysis is done when you are providing your results for others. These visualizations need to provide you the emphasis necessary to convey your message. They should be accurate, insightful, and visually appealing.
+   
+ <p align="right">
+  <img src="../img/3.PNG" alt="" width="500" height="200" >
+ </p>
+ 
+ 
 The five steps of the data analysis process:
 
    * Extract - Obtain the data from a spreadsheet, SQL, the web, etc.
