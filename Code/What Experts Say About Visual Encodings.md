@@ -35,10 +35,10 @@ The **data-ink ratio**, credited to Edward Tufte, is directly related to the ide
 
 # Design Integrity
 
-It is key that when you build plots you maintain integrity for the underlying data. One of the main ways discussed here for looking at data integrity was with the lie factor. Lie factor depicts the degree to which a visualization distorts or misrepresents the data values being plotted. It is calculated in the following way:
+It is key that when you build plots you maintain integrity for the underlying data. One of the main ways discussed here for looking at data integrity was with the **lie factor**. Lie factor depicts the degree to which a visualization distorts or misrepresents the data values being plotted. It is calculated in the following way:
 
   <p align="right">
-  <img src="../img/17.PNG" alt="" width="150" height="90" >
+  <img src="../img/17.PNG" alt="" width="300" height="120" >
  </p>
  
  The delta symbol (Δ) stands for difference or change. In words, the lie factor is the relative change shown in the graphic divided by the actual relative change in the data. Ideally, the lie factor should be 1: any other value means that there is some mismatch in the ratio of depicted change to actual change.
@@ -53,8 +53,10 @@ The lie factor shown below was in comparing the largest to the smallest doctor i
  
  
   <p align="right">
-  <img src="../img/19.PNG" alt="" width="500" height="400" >
+  <img src="../img/19.PNG" alt="" width="500" height="150" >
  </p>
  
+**Any lie factor different than 1 suggests that a visual is distorting the data. When the factor is greater than 1, we are making an effect larger than it actually is and factors less than 1 are hiding the magnitude of an effect.** 
+
 Further Reading: [Flowing Data: How to Spot Visualization Lies](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
 
