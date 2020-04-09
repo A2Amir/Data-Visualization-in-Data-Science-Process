@@ -30,11 +30,14 @@ The five steps of the data analysis process:
 
 Below you can see the differrences between Exploratory and Explanatory analyses.
 
-
-  <img src="../img/4.PNG" alt="" width="600" height="200" align="right">
+ <p align="right">
+  <img src="../img/4.PNG" alt="" width="600" height="200" >
+ </p>
 
 
 # Python Data Visualization Libraries
+
+
 
 We will make use of the following libraries for creating data visualizations:
 
@@ -45,9 +48,9 @@ We will make use of the following libraries for creating data visualizations:
     
    * [pandas](https://pandas.pydata.org/): while this library includes some convenient methods for visualizing data that hook into matplotlib, we'll mainly be using it for its main purpose as a general tool for working with data.
 
-
-<img src="../img/5.PNG" alt="" width="300" height="300" align="right">
-
+<p align="right">
+<img src="../img/5.PNG" alt="" width="300" height="300" >
+</p>
 
 
 All together, these libraries will allow us to visualize data in a balance of productivity and flexibility, for both exploratory as well as explanatory analyses.
