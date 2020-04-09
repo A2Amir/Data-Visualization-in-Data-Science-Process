@@ -1,66 +1,34 @@
 
-# Exploratory vs. Explanatory Analyses
+# What Experts Say About Visual Encodings 
 
-There are two main reasons for creating visuals using data:
+Experts and researchers have determined the types of visual patterns that allow humans to best understand certain information. In general, humans are able to best understand data encoded with **positional changes (differences in x- and y- position as  scatterplots)** and **length changes (differences in box heights as  bar charts and histograms)**.
 
-   * Exploratory analysis is done when you are searching for insights. These visualizations don't need to be perfect. You are using plots to find insights, but they don't need to be aesthetically appealing. You are the consumer of these plots, and you need to be able to find the answer to your questions from these plots. 
+Alternatively, humans struggle with understanding data encoded with **color hue changes** (as are unfortunately commonly used as an additional variable encoding in scatter plots) and **area changes** (as pie charts, which often makes them not the best plot choice).
+
+# Chart junk
+
+From Wikipedia, [Chart junk](https://en.wikipedia.org/wiki/Chartjunk) refers to all visual elements in charts and graphs that are not necessary to comprehend the information represented on the graph or that distract the viewer from this information.
+
+Examples of chart junk include:
+
+   * Heavy grid lines
+   * Unnecessary text
+   * Pictures surrounding the visual
+   * Shading or 3d components
+   * Ornamented chart axes
+
+# Data-ink ratio
+As you know, we can better our visualizations by removing extraneous elements. We can conceptualize this relationship using something called the data-to-ink ratio. As the ratio of the amount of ink used to describe the data to the total amount of ink in the visual.
+In general, the higher the data-to-ink ratio, the better (Limiting chart junk increases the data-ink ratio.). 
  
  <p align="right">
-  <img src="../img/2.PNG" alt="" width="500" height="200" >
+  <img src="../img/15.PNG" alt="" width="400" height="200" >
  </p>
 
-   * Explanatory analysis is done when you are providing your results for others. These visualizations need to provide you the emphasis necessary to convey your message. They should be accurate, insightful, and visually appealing.
-   
- <p align="right">
+The **data-ink ratio**, credited to Edward Tufte, is directly related to the idea of chart junk. The more of the ink in your visual that is related to conveying the message in the data, the better. This means that a large amount of the ink in the visual is being used to actually describe the data, while low data-ink ratio suggests that you are using ink that is added for other purposes rather than describing the data. These elements should be removed. Let's take a look at an example. 
+ 
+  <p align="right">
   <img src="../img/3.PNG" alt="" width="500" height="200" >
  </p>
  
- 
-The five steps of the data analysis process:
-
-   * Extract - Obtain the data from a spreadsheet, SQL, the web, etc.
-
-   * Clean - Here we could use exploratory visuals.
-
-   * Explore - Here we use exploratory visuals.
-
-   * Analyze - Here we might use either exploratory or explanatory visuals.
-   
-   * Share - Here is where explanatory visuals live.
-
-Below you can see the differrences between Exploratory and Explanatory analyses.
-
- <p align="right">
-  <img src="../img/4.PNG" alt="" width="500" height="400" >
- </p>
-
-
-# Python Data Visualization Libraries
-
-
-
-We will make use of the following libraries for creating data visualizations:
-
-   * [Matplotlib](https://matplotlib.org/): a versatile library for visualizations, but it can take some code effort to put together common visualizations.
-    
-    
-   * [Seaborn](https://seaborn.pydata.org/): built on top of matplotlib, adds a number of functions to make common statistical visualizations easier to generate.
-    
-   * [pandas](https://pandas.pydata.org/): while this library includes some convenient methods for visualizing data that hook into matplotlib, we'll mainly be using it for its main purpose as a general tool for working with data.
-
-<p align="right">
-<img src="../img/5.PNG" alt="" width="300" height="300" >
-</p>
-
-
-All together, these libraries will allow us to visualize data in a balance of productivity and flexibility, for both exploratory as well as explanatory analyses.
-
-**A Quick Note about Library Versions:**
-
-Some of the things that you see in this repo might not work the same depending on which version of the Python packages you have. For clarity, as of August 2018, here are the library versions that were used to create the repo materials:
-
-  * NumPy: Workspaces use v1.12.1, content created with v1.14.0
-  * pandas: Workspaces use v0.20.3, content created with v0.22.0
-  * Matplotlib: Workspaces use v2.1.0, content created with v2.1.2
-  * Seaborn: Workspaces and content both created with v0.8.1
-
+ As  you can easily see the effect of improving the data-to-ink ratio.The visualization with the high data-to-ink ratio(on the right side) is far more clear, more interpretable, and has all the elements you need for a great visualization. 
