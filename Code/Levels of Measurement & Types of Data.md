@@ -10,32 +10,32 @@ In order to choose an appropriate plot type or method of analysis for your data,
    1. Nominal data: pure labels without inherent order like moving genre or country (no label is intrinsically greater or less than any other)
 
  
- <div >
-<img src="../img/6.PNG" alt="" width="300" height="100" align="right">
-</div>
+ <p align="right">
+<img src="../img/6.png" alt="" width="300" height="300" >
+</p>
   
 
  2. Ordinal data: labels with an intrinsic order or ranking like letter grade on a test(comparison operations can be made between values, but the magnitude of differences are not be well-defined)
 
  
- <div >
-<img src="../img/7.PNG" alt="" width="300" height="200" align="right">
-</div>
+ <p align="right">
+<img src="../img/7.PNG" alt="" width="300" height="200" >
+</p>
 
 ### Quantitative or numeric types
 
    3. Interval data: numeric values where absolute differences are meaningful (addition and subtraction operations can be made)
    
     
- <div >
-<img src="../img/8.PNG" alt="" width="300" height="200" align="right">
-</div>
+ <p align="right">
+<img src="../img/8.PNG" alt="" width="300" height="200" >
+</p>
    
 
  4. Ratio data: numeric values where relative differences are meaningful (multiplication and division operations can be made)
- <div >
-<img src="../img/9.PNG" alt="" width="300" height="200" align="right">
-</div>
+ <p align="right">
+<img src="../img/9.PNG" alt="" width="300" height="200">
+</p>
    
 
 All **quantitative-type** variables also come in one of two varieties: **discrete and continuous**.
@@ -46,37 +46,37 @@ All **quantitative-type** variables also come in one of two varieties: **discret
   * Continuous quantitative variables can (hypothetically) take on values to any level of precision.
 
 Distinguishing between continuous and discrete can be a little tricky – a rule of thumb is if there are few levels, and values can't be subdivided into further units, then it's discrete. Otherwise, it's continuous. If you have a scale that can only take natural number values between 1 and 5, that's discrete. A quantity that can be measured to two digits, e.g. 2.72, is best characterized as continuous, since we might hypothetically be able to measure to even more digits, e.g. 2.718. A tricky case like test scores measured between 0 and 100 can only be divided down to single integers, making it initially seem discrete. But since there are so many values, such a feature is usually considered as continuous.
- <div >
-<img src="../img/10.PNG" alt="" width="500" height="400" align="right">
-</div>
+ <p align="right">
+<img src="../img/10.PNG" alt="" width="500" height="400" >
+</p>
    
 When exploring your data, the most important thing to consider first is whether your data is qualitative or quantitative. In later lessons, you will see how this distinction impacts your choice of plots.
 
 
 ### Example:
-<div >
-<img src="../img/11.PNG" alt="" width="500" height="400" align="right">
-</div>
+ <p align="right">
+<img src="../img/11.PNG" alt="" width="500" height="400" >
+</p>
 
 You know your variables! The zip code is tricky. Even though this is a number, it isn't a number with which we can perform mathematical operations (add, subtract, etc.) and get another value that makes sense. Therefore, we consider it a categorical variable, not quantitative. 
 
 ### Example:
 
-<div >
-<img src="../img/12.PNG" alt="" width="500" height="400" align="right">
-</div>
+ <p align="right">
+<img src="../img/12.PNG" alt="" width="500" height="400" >
+</p>
 
 ### Example:
 
-<div >
-<img src="../img/13.PNG" alt="" width="500" height="400" align="right">
-</div>
+ <p align="right">
+<img src="../img/13.PNG" alt="" width="500" height="400" >
+</p>
 
 ### Example:
 
-<div >
-<img src="../img/14.PNG" alt="" width="500" height="400" align="right">
-</div>
+ <p align="right">
+<img src="../img/14.PNG" alt="" width="500" height="400" >
+</p>
 
 ### Quantitative vs. Categorical
 
