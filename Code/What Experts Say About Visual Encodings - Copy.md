@@ -28,3 +28,11 @@ Humans perceive color through signals produced by cells in the retina called con
  </p>
 
 To be sensitive to those with colorblindness, you should use color palettes that do not move from **red to green** without using another element to distinguish this change like shape, position, or lightness. Both of these colors appear in a yellow tint to individuals with the most common types of colorblindness. Instead, use colors on **a blue to orange** palette.
+
+# Shape, Size, & Other Tools
+
+We typically try to use position on the x- and y- axes to encode, or depict the value of variables. If we have more than two variables, however, we have to start considering other visual encodings for the additional variables.
+
+In general, **color and shape are best for categorical variables**, while the **size of marker** can assist in adding additional **quantitative data**.
+
+Only use these additional encodings when absolutely necessary. Often, overuse of these additional encodings suggest you are providing too much information in a single plot. Instead, it might be better **to break the information into multiple individual messages, so the audience can understand every aspect of your message**. 
