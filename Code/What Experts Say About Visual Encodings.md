@@ -45,19 +45,16 @@ It is key that when you build plots you maintain integrity for the underlying da
  
 The lie factor shown below was in comparing the largest to the smallest doctor in terms of pixels.
 
-  <p align="right">
+ <p align="right">
   <img src="../img/18.png" alt="" width="500" height="400" >
  </p>
  
  The number of pixels related to the largest image is 79,000 and 16,500 for the smallest. The percentage change is 27% to 12%. So, the lie factor is calculated as:
  
- 
-  <p align="right">
+ <p align="right">
   <img src="../img/19.PNG" alt="" width="500" height="150" >
  </p>
  
 **Any lie factor different than 1 suggests that a visual is distorting the data. When the factor is greater than 1, we are making an effect larger than it actually is and factors less than 1 are hiding the magnitude of an effect.** 
 
 Further Reading: [Flowing Data: How to Spot Visualization Lies](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
-
-
