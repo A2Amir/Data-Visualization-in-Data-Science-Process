@@ -17,30 +17,35 @@ In this section, it is expected that your data is organized in some kind of tidy
 The first three images below depict a tidy dataset. This tidy dataset is in the field of healthcare and has two tables: one for patients (with their patient ID, name, and age) and one for treatments (with patient ID, what drug that patient is taking, and the dose of that drug).
 
  <p align="right">
-  <img src="../img/22.PNG" alt="" width="600" height="300" >
+  <img src="../img/22.PNG" alt="" width="600" height="250" >
  </p>
-
-Each variable in a tidy dataset must have its own column.
+                              
+                                    Each variable in a tidy dataset must have its own column.
  
  <p align="right">
-  <img src="../img/23.PNG" alt="" width="600" height="300" >
- </p>
-Each observation in a tidy dataset must have its own row
- <p align="right">
-  <img src="../img/24.PNG" alt="" width="600" height="300" >
+  <img src="../img/23.PNG" alt="" width="600" height="250" >
  </p>
  
-Each observational unit in a tidy dataset must have its own table
+                                    Each observation in a tidy dataset must have its own row
+ <p align="right">
+  <img src="../img/24.PNG" alt="" width="600" height="250" >
+ </p>
+ 
+                                    Each observational unit in a tidy dataset must have its own table
 
 
 The next image depicts the same data but in one representation of a non-tidy format (there are other possible non-tidy representations). The Drug A, Drug B, and Drug C columns should form one 'Drug' column, since this is one variable. The entire table should be separated into two tables: a patients table and a treatments table.
 
  <p align="right">
-  <img src="../img/25.PNG" alt="" width="600" height="300" >
+  <img src="../img/25.PNG" alt="" width="600" height="250" >
  </p>
  
 Only the second rule of tidy data is satisfied in this non-tidy representation of the above data: each observation forms a row
 
 While the data provided to you in the section will all be tidy, in practice, you may need to perform tidying work before exploration. You should be comfortable with reshaping your data or perform transformations to split or combine features in your data, resulting in new data columns. This work should be performed in the wrangling stage of the data analysis process.
 
-Note: tidy data is not the only useful form that data can take.In fact, as you work with a dataset, you might need to summarize it in a non-tidy form in order to generate appropriate visualizations.
+**Notice: tidy data is not the only useful form that data can take.In fact, as you work with a dataset, you might need to summarize it in a non-tidy form in order to generate appropriate visualizations.**
+
+# Bar Charts
+
+A **bar chart** is used to depict the distribution of **a categorical** variable. In a bar chart, each level of the categorical variable is depicted with a bar, whose height indicates the **frequency of data points** that take on that level. A basic bar chart of frequencies can be created through the use of **seaborn's countplot** function check [this notebook]() to get more familiar.
