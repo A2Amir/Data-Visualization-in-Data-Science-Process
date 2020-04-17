@@ -60,3 +60,5 @@ One interesting way we can apply bar charts is through the visualization of miss
 
 
 # Pie Charts
+
+A pie chart is a common univariate plot type that is used to depict relative frequencies for levels of a categorical variable. Frequencies in a pie chart are depicted as wedges drawn on a circle: the larger the angle or area, the more common the categorical value taken.check [this notebook]() to get more familiar.
