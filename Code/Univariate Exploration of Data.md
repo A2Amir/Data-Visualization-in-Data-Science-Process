@@ -49,3 +49,14 @@ While the data provided to you in the section will all be tidy, in practice, you
 # Bar Charts
 
 A **bar chart** is used to depict the distribution of **a categorical** variable. In a bar chart, each level of the categorical variable is depicted with a bar, whose height indicates the **frequency of data points** that take on that level. A basic bar chart of frequencies can be created through the use of **seaborn's countplot** function check [this notebook]() to get more familiar.
+
+# Absolute vs. Relative Frequency
+
+By default, **seaborn's countplot** function will summarize and plot the data in terms of **absolute frequency**, or pure counts. In certain cases, you might want to understand the distribution of data or want to compare levels in terms of **proportions of the whole**. In this case, you will want to plot the data in terms of **relative frequency**, where the height indicates the proportion of data taking each level, rather than the absolute count. check [this notebook]() to get more familiar.
+
+# Counting Missing Data
+
+One interesting way we can apply bar charts is through the visualization of missing data. We can use pandas functions to create a table with the number of missing values in each column.check [this notebook]() to get more familiar.
+
+
+# Pie Charts
