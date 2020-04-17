@@ -69,4 +69,7 @@ A histogram is used to plot the distribution of a numeric variable. It's the qua
 
 # Figures, Axes, and Subplots
 
-The base of a visualization in matplotlib is a Figure object. Contained within each Figure will be one or more Axes objects, each Axes object containing a number of other elements that represent each plot.check [this notebook]() to get more familiar.
+The base of a visualization in matplotlib is a Figure object. Contained within each Figure will be one or more Axes objects, each Axes object containing a number of other elements that represent each plot.check [this notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Figures%2C%20Axes%2C%20and%20Subplots.ipynb) to get more familiar.
+
+# Choosing a Plot for Discrete Data
+If you want to plot a discrete quantitative variable, it is possible to select either a histogram or a bar chart to depict the data.check [this notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Choosing%20a%20Plot%20for%20Discrete%20Data.ipynb) to get more familiar.
