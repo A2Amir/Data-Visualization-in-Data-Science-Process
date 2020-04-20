@@ -75,4 +75,17 @@ The base of a visualization in matplotlib is a Figure object. Contained within e
 If you want to plot a discrete quantitative variable, it is possible to select either a histogram or a bar chart to depict the data.check [this notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Choosing%20a%20Plot%20for%20Discrete%20Data.ipynb) to get more familiar.
 
 # Descriptive Statistics, Outliers and Axis Limits
-you might need to change the limits or scale of what is plotted to take a closer look at the underlying patterns in the data. This [notebook]() covers the topic of axis limits.
+you might need to change the limits or scale of what is plotted to take a closer look at the underlying patterns in the data. This [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Descriptive%20Statistics%2C%20Outliers%20and%20Axis%20Limits.ipynb) covers the topic of axis limits.
+
+
+# Scales and Transformations
+
+Certain data distributions will find themselves amenable to scale transformations. The most common example of this is data that follows an approximately [log-normal](https://en.wikipedia.org/wiki/Log-normal_distribution) distribution. This is data that, in their natural units, can look highly skewed: lots of points with low values, with a very long tail of data points with large values. However, after applying a logarithmic transform to the data, the data will follow a normal distribution. check [this notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Scales%20and%20Transformations.ipynb) to get more familiar.
+
+# Kernel Density Estimation
+
+The plots in this section might prove useful for both the exploratory and explanatory sides of data visualization. check [this notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Kernel%20Density%20Estimation.ipynb) to get more familiar.
+
+
+# Waffle Plots
+One alternative univariate plot type that you might see for categorical data is the waffle plot. check [this notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Waffle%20Plots.ipynb) to get more familiar.
