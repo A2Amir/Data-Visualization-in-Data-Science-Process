@@ -73,3 +73,6 @@ The base of a visualization in matplotlib is a Figure object. Contained within e
 
 # Choosing a Plot for Discrete Data
 If you want to plot a discrete quantitative variable, it is possible to select either a histogram or a bar chart to depict the data.check [this notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Choosing%20a%20Plot%20for%20Discrete%20Data.ipynb) to get more familiar.
+
+# Descriptive Statistics, Outliers and Axis Limits
+you might need to change the limits or scale of what is plotted to take a closer look at the underlying patterns in the data. This [notebook]() covers the topic of axis limits.
