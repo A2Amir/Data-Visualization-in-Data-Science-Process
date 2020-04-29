@@ -58,3 +58,7 @@ Matplotlib's hist function can also be adapted so that bar heights indicate valu
 # Line Plots
 
 The line plot is a fairly common plot type that is used to plot the trend of one numeric variable against values of a second variable.check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Line%20Plots.ipynb) to get more familiar with it.
+
+# Q-Q plot
+There might be cases where you are interested to see how closely your numeric data follows some hypothetical distribution. This might be important for certain parametric statistical tests, like checking for assumptions of normality. In cases like this, you can use **a quantile-quantile plot, or Q-Q plot**, to make a visual comparison between your data and your reference distribution.check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Q-Q%20Plots.ipynb) to get more familiar with it.
+
