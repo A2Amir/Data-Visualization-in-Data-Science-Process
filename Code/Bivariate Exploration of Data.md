@@ -62,3 +62,11 @@ The line plot is a fairly common plot type that is used to plot the trend of one
 # Q-Q plot
 There might be cases where you are interested to see how closely your numeric data follows some hypothetical distribution. This might be important for certain parametric statistical tests, like checking for assumptions of normality. In cases like this, you can use **a quantile-quantile plot, or Q-Q plot**, to make a visual comparison between your data and your reference distribution.check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Q-Q%20Plots.ipynb) to get more familiar with it.
 
+# Swarm Plots
+
+Another alternative to Boxplot and Violin plots is the swarm plot depicting the relationship between a numeric variable and a categorical variable. Similar to a scatterplot, each data point is plotted with position according to its value on the two variables being plotted. check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Swarm%20Plots.ipynb) to get more familiar with it.
+
+# Rug and Strip Plots
+
+You might encounter marginal distributions that are plotted alongside bivariate plots such as scatterplots which named rug plots. In a rug plot, all of the data points are plotted on a single axis, one tick mark or line for each one. Another plot type similar to the rug plot is the strip plot. It's like a swarm plot but without any dodging or jittering to keep points separate or off the categorical line.
+check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Rug%20and%20Strip%20Plots.ipynb) to get more familiar with it.
