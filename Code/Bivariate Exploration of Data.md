@@ -70,3 +70,7 @@ Another alternative to Boxplot and Violin plots is the swarm plot depicting the 
 
 You might encounter marginal distributions that are plotted alongside bivariate plots such as scatterplots which named rug plots. In a rug plot, all of the data points are plotted on a single axis, one tick mark or line for each one. Another plot type similar to the rug plot is the strip plot. It's like a swarm plot but without any dodging or jittering to keep points separate or off the categorical line.
 check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Rug%20and%20Strip%20Plots.ipynb) to get more familiar with it.
+
+# Stacked Plots
+
+The most basic stacked chart takes a single bar representing the full count, and divides it into colored segments based on frequencies on a categorical variable. If this sounds familiar, that's because it almost perfectly coincides with the description of a pie chart, except that the shape being divided is different.check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Stacked%20Plots.ipynb) to get more familiar with it.
