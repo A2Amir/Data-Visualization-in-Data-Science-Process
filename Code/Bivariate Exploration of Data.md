@@ -74,3 +74,7 @@ check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Scien
 # Stacked Plots
 
 The most basic stacked chart takes a single bar representing the full count, and divides it into colored segments based on frequencies on a categorical variable. If this sounds familiar, that's because it almost perfectly coincides with the description of a pie chart, except that the shape being divided is different.check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Stacked%20Plots.ipynb) to get more familiar with it.
+
+# Ridgeline Plots
+
+One of the hot new visualization types from recent years is the ridgeline plot. In a nutshell, the ridgeline plot is a series of vertically faceted line plots or density curves, but with somewhat overlapping y-axes. This can be thought of as a contrast to the line plot variation seen in the "Line Plots" part, where multiple lines were plotted on the same axes, with different hues. On this section, I'll walk through the creation of a ridgeline plot using some of the demonstration data shown in the "Faceting" section.check this [notebook]() to get more familiar with it.
