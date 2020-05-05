@@ -10,3 +10,4 @@ Thes lesson is intended as a basic overview of Data Visualization and introduces
 5. [Using Color, Designing for Color Blindness, Shape and Size](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Using%20Color.md)
 6. [Univariate Exploration of Data](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Univariate%20Exploration%20of%20Data.md)
 7. [Bivariate Exploration of Data](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Bivariate%20Exploration%20of%20Data.md)
+8. [Multivariate Exploration of Data]()
