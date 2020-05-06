@@ -38,12 +38,15 @@ Color is a very common encoding for variables, for **both qualitative and quanti
 
 check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Encoding%20via%20Color%20.ipynb) to get more information.
 
+# Faceting in Two Directions
 
 
+In the this [section](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Faceting.ipynb), you saw how FacetGrid could be used to subset the dataset across levels of a categorical variable, and then create one plot for each subset or you saw in this [section](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Encoding%20via%20Color%20.ipynb) how to facet bivariate plots to create a multivariate visualization.
 
 
+FacetGrid also allows for faceting a variable not just by columns, but also by rows. We can set one categorical variable on each of the two facet axes for one additional method of depicting multivariate trends.check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Faceting%20in%20Two%20Directions.ipynb) to get more information.
 
-
+# Other Adaptations of Bivariate Plots
  <p align="right">
   <img src="../img/26.PNG" alt="" width="300" height="300" >
  </p>
