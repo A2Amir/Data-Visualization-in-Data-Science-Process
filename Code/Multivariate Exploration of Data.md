@@ -38,11 +38,18 @@ Color is a very common encoding for variables, for **both qualitative and quanti
 
 check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Encoding%20via%20Color%20.ipynb) to get more information.
 
+# Faceting in Two Directions
 
 
+In the this [section](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Faceting.ipynb), you saw how FacetGrid could be used to subset the dataset across levels of a categorical variable, and then create one plot for each subset or you saw in this [section](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Encoding%20via%20Color%20.ipynb) how to facet bivariate plots to create a multivariate visualization.
 
 
+FacetGrid also allows for faceting a variable not just by columns, but also by rows. We can set one categorical variable on each of the two facet axes for one additional method of depicting multivariate trends.check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Faceting%20in%20Two%20Directions.ipynb) to get more information.
 
+# Other Adaptations of Bivariate Plots
+
+
+You also saw earlier in this section one other way of expanding univariate plots into bivariate plots by substituting count on a [bar chart](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Adapted%20Bar%20Charts.ipynb) or [histogram](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Adapted%20Histograms.ipynb) for the mean, median, or some other statistic of a second variable. This adaptation can also be done for bivariate plots like the heat map, clustered bar chart, and line plot, to allow them to depict multivariate relationships. check this [notebook]() to get more information.
 
  <p align="right">
   <img src="../img/26.PNG" alt="" width="300" height="300" >
