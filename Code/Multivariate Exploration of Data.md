@@ -51,7 +51,10 @@ FacetGrid also allows for faceting a variable not just by columns, but also by r
 
 You also saw earlier in this section one other way of expanding univariate plots into bivariate plots by substituting count on a [bar chart](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Adapted%20Bar%20Charts.ipynb) or [histogram](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Adapted%20Histograms.ipynb) for the mean, median, or some other statistic of a second variable. This adaptation can also be done for bivariate plots like the heat map, clustered bar chart, and line plot, to allow them to depict multivariate relationships. check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Other%20Adaptations%20of%20Bivariate%20Plots.ipynb) to get more information.
 
- <p align="right">
-  <img src="../img/26.PNG" alt="" width="300" height="300" >
- </p>
- 
+# Plot Matrices and Correlation Matrices
+
+If you want to look at the relationship between many pairs of variables rather than generate the bivariate plots one by one, a preliminary option you might consider for exploration is the creation of a plot matrix. In a plot matrix, a matrix of plots is generated. Each row and column represents a different variable, and a subplot against those variables is generated in each plot matrix cell. This contrasts with faceting, where rows and columns will subset the data, and the same variables are depicted in each subplot. check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Plot%20Matrices.ipynb) to get more information.
+
+# Feature engineering
+
+feature engineering is a tool that you can leverage as you explore and learn about your data. As you explore a dataset, you might find that two variables are related in some way. Feature engineering is all about creating a new variable with a sum, difference, product, or ratio between those original variables that may lend a better insight into the research questions you seek to answer. check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Feature%20Engineering.ipynb) to get more information.
