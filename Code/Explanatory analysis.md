@@ -16,3 +16,5 @@ In **explanatory analyses**, your audience will be broader and your goal will be
 4.  Call Your Audience To Action
 
 # Polishing Plots
+
+In order to convey your findings to others quickly and efficiently, you'll need to put work into polishing your plots. There are many dimensions to consider when putting together a polished plot.check this [notebook]() to get more familiar.
