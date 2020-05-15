@@ -11,3 +11,4 @@ Thes lesson is intended as a basic overview of Data Visualization and introduces
 6. [Univariate Exploration of Data](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Univariate%20Exploration%20of%20Data.md)
 7. [Bivariate Exploration of Data](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Bivariate%20Exploration%20of%20Data.md)
 8. [Multivariate Exploration of Data](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Multivariate%20Exploration%20of%20Data.md)
+9. [Explanatory Analysis](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Explanatory%20analysis.md)
