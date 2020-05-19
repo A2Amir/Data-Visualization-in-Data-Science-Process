@@ -19,6 +19,9 @@ In **explanatory analyses**, your audience will be broader and your goal will be
 
 In order to convey your findings to others quickly and efficiently, you'll need to put work into polishing your plots. There are many dimensions to consider when putting together a polished plot.check this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/Polishing%20Plots.ipynb) to get more familiar.
 
+# Getting and Using Feedback
+Asking colleagues, friends, or family to provide feedback can be a good step to making sure that the story that you wish to tell hits its mark.
+
 # Creating a Slide Deck with Jupyter
 
 
