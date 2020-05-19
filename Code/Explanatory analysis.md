@@ -21,7 +21,6 @@ In order to convey your findings to others quickly and efficiently, you'll need 
 
 # Creating a Slide Deck with Jupyter
 
-check this [notebook]() to get more familiar.
 
 There are many ways in which you can use explanatory visualizations to convey findings to others. You might save your plots on their own, and embed them in a report or blog post. Visualizations also have a major place in presentations, as part of a slide deck. When it comes to creating slides, you might normally think of dedicated tools like Powerpoint, Keynote, or Google Slides. What you might not be aware of is the fact that Jupyter notebooks include a tool, [nbconvert](https://nbconvert.readthedocs.io/en/latest/), that can export notebooks in an HTML slides format. 
 
@@ -51,4 +50,9 @@ Additionally, running the base expression will not automatically open up the sli
 
     jupyter nbconvert presentation.ipynb --to slides --template output-toggle.tpl --post serve
     
-check this [notebook]() to get more familiar.
+By running this [notebook](https://github.com/A2Amir/Data-Visualization-in-Data-Science-Process/blob/master/Code/presentation.ipynb) with the guidline explained abeove you will get a slide presentation deck like below.
+
+ 
+ <p align="right">
+  <img src="../img/1.gif" alt=""  >
+ </p>
