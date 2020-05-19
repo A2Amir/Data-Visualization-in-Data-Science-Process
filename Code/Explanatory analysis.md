@@ -47,3 +47,8 @@ However, it's likely that you'll want to add additional options to the nbconvert
  
 By default, code cell inputs and outputs are both rendered in the slides. More likely you want to hide the code in your presentation so that all attention can be put on the visualizations and text. To do this, you can specify a template file using the **--template** option. The template file available at this [link](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/March/5abe98f3_output-toggle/output-toggle.tpl) will hide code cells from nbconvert.
  
+Additionally, running the base expression will not automatically open up the slide deck for viewing. In order to serve the slides, you would need to install a local copy of reveal.js ([Installation documentation](https://github.com/hakimel/reveal.js#installation)), make sure that your HTML slides point to the library correctly (using the **--reveal-prefix** option), and then start a local http server (e.g., via **python -m http.server**).  Alternatively, you can add the **--post serve** option to your expression to make use of a public, online version of **reveal.js**, start up a server, and immediately open a tab in your web browser with the slide deck ready to navigate.
+
+    jupyter nbconvert presentation.ipynb --to slides --template output-toggle.tpl --post serve
+    
+check this [notebook]() to get more familiar.
