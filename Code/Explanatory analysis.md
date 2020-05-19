@@ -33,3 +33,17 @@ If you're planning on creating a slide deck presentation through a Jupyter noteb
  </p>
  
  For cells that you want readers to see, you'll choose the Slide, Sub-Slide, or Fragment types. Slides will form the main flow of the presentation, while sub-slides are children of slides in the main flow. Fragments are attached to preceding slides or sub-slides, and allow for gradual reveals of information on the same slide. It's a little hard to describe this abstractly through text: you can see an example of Slides, Sub-Slides, and Fragments at work through the example presentation found on the [reveal.js](https://revealjs.com/) homepage (the library that is behind the nbconvert slide functionality).
+
+Cells that you don't want users to see should be in the Skip or Notes types. Skip-type cells will never show up in a slide flow, while Notes cells can only be seen by the presenter in a speaker notes window.
+
+
+In addition to setting slide types, make sure that all of your code cells have been run and produce the output that you want to show. nbconvert will only export elements of the notebook as-is, and won't run the notebook cells as is. It is recommended that you use the **Kernel > Restart & Run All** menu option to do a clean run through of all of your cells as a final preparatory action.
+
+Once your notebook has been prepared, save it and shut down your notebook server. On the command line, you can render the notebook as slides using the following expression as a base.
+
+    jupyter nbconvert presentation(the name of your notebook).ipynb --to slides
+    
+However, it's likely that you'll want to add additional options to the nbconvert call to make the slides look cleaner and to make serving them easier.
+ 
+By default, code cell inputs and outputs are both rendered in the slides. More likely you want to hide the code in your presentation so that all attention can be put on the visualizations and text. To do this, you can specify a template file using the **--template** option. The template file available at this [link](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/March/5abe98f3_output-toggle/output-toggle.tpl) will hide code cells from nbconvert.
+ 
