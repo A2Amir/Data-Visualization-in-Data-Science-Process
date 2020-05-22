@@ -1,6 +1,6 @@
 # Data Visualization in Data Science Process
  
-This Repository is intended as a overview of Data Visualization and introduces some of its most important features.In the following you will learn:
+This Repository is intended as a overview of Data Visualization and introduces some of its most important features.In the following links you can go through to learn:
 
 
 1. [Why it is important to always plot your data](https://github.com/A2Amir/Data-Visualization/blob/master/Code/Why%20it%20is%20important%20to%20always%20plot%20your%20data.ipynb)
